@@ -28,7 +28,7 @@ blocks:
             - python manage.py test
         - name: Checklist
           commands:
-            - cd martor_demo
+            - cd django-markdown-editor/martor_demo
             - python manage.py check --deploy
         - name: Style check
           commands:
